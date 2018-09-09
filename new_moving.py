@@ -883,3 +883,5 @@ Line_with_obstacle_Forward()
 #motor.turnEnc(type = "R",degrees = -45)
 motor.stop()
 claw.stop()
+claw.reset()
+
